@@ -218,3 +218,83 @@ h1 {
   .result-container h1 { font-size: 2rem; }
   .icon { font-size: 4rem; }
 }
+
+.role-container {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.role-container h1 {
+  margin-bottom: 2rem;
+}
+
+.role-btn {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 20px 30px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.role-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+.role-label {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.role-sub {
+  display: block;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+/* Кнопка "Я мама/папа" */
+.parent-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Кнопка "Я Даша/Денис" (тетя/дядя) */
+.aunt-btn {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+}
+
+/* Кнопка "Я бабушка" */
+.grandma-btn {
+  background: linear-gradient(135deg, #ffd89b 0%, #c7e9fb 100%);
+  color: #333;
+}
+
+.boy-warning {
+  background: rgba(255, 100, 100, 0.2);
+  border: 2px solid #ff6b6b;
+  border-radius: 20px;
+  padding: 20px;
+  color: #ff6b6b;
+}
+
+@media (max-width: 600px) {
+  .role-btn {
+    padding: 15px 20px;
+    font-size: 1.2rem;
+  }
+  .role-label {
+    font-size: 1rem;
+  }
+}
