@@ -3,6 +3,7 @@ import { supabase } from './config/supabase';
 import confetti from 'canvas-confetti';
 import { motion, AnimatePresence } from 'framer-motion';
 import './App.css';
+//test commit
 
 function App() {
   const [mode, setMode] = useState('parent'); // 'parent' or 'keeper'
